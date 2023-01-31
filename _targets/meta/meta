@@ -1,0 +1,10 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+all_pdf_contents2|stem|95986b3dab55bc00|e475224d14df7830|98a6ed00d04317ce|-546850208||t19387.9898754096s|6416fafe729248ba|531939253|rds|local|vector|||6766.86||
+FindPDFs|function|1cc64047d0f56579|||||||||||||||
+GetPDFtxt|function|552f5f905abf0d1a|||||||||||||||
+GetPDFtxt_tibble|function|b324141d7f20757f|||||||||||||||
+max_size|stem|54ccfef8a40c9084|21f7654052a20a2e|ef46db3751d8e999|876618335||t19387.9027892879s|82c1d84d4f45bcb8|56|rds|local|vector|||1.69||
+my_dir1|stem|7fd9dc7471190021|21c044c5defa672e|4eae453f0a45f29b|-1439168239|C:/Users/Natalia/OneDrive/PhD Psychology/01 - Papers, Books, Theses|t19377.7370835123s|bebb5c2b68fab52c|14677144999|file|local|vector|||0.01||
+my_dir2|stem|55c9361920e2735c|251373babc829af5|4eae453f0a45f29b|838834346|C:/Users/Natalia/OneDrive/PDFs|t19382.575866165s|2e2afbea03837922|29067662146|file|local|vector|||0||
+pdf_dir|stem|ba52f97fdcbf2a6b|5126a77352336551|f3882d9c031e9d86|1471861542||t19387.9103459687s|7333ae111f80a819|447419|rds|local|vector|||5.25||
+SearchPDFs|function|f3591fb0293fdbf6|||||||||||||||
