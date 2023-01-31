@@ -19,7 +19,7 @@ within the results, and open files with just a click of a button.
 
 Here’s a preview of the app:
 
-![](rstudio_vfRsoOhtGX.png)
+![](README_files/rstudio_vfRsoOhtGX.png)
 
 While I’ve used other tools that are capable of performing the same
 actions (e.g., [‘Everything’](https://www.voidtools.com/)), these would
