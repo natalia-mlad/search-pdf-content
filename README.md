@@ -90,3 +90,14 @@ app.
 
 I made the app not .Rproj dependent, so feel free to create a desktop
 shortcut to quickly run it whenever (like I did!).
+
+## Limitations
+
+-   Requires the [poppler-utils
+    package](https://poppler.freedesktop.org/) for reading PDFs
+    (available for all platforms)
+-   Only works on PDF files that are on paths shorter than 259
+    characters (longer paths introduced bugs, so I had to implement this
+    limit)
+-   Some PDFs are not machine-readable (e.g., older/bad quality scans)
+    and so will not get indexed

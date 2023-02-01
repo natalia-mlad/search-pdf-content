@@ -28,6 +28,7 @@ list(
       c(my_dir1, my_dir2) %>%
         dir_ls(glob = "*.pdf", all = F, recurse = T, fail = F) %>%
         file_info() %>%
+        # TODO: inform the user explicitly about the files "lost"
         filter(!is.na(size) & size != 0) %>%
         filter(file.exists(path) == TRUE) %>%
         filter(nchar(path) < 259) %>%
@@ -61,6 +62,7 @@ list(
       mutate(txt = map(
         path, possibly(GetPDFtxt, NA_real_)
       ), .after = path) %>%
+      # TODO: inform the user explicitly about the unread files
       filter(!is.na(txt)) %>%
       mutate(filename = path_file(path), .after = path) %>%
       select(path, filename, txt, size, modification_time,
